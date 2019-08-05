@@ -1,10 +1,10 @@
 ---
 [server]
-xxx.xxx.xxx.xxx
+54.226.61.242
 
 [server:vars]
 ansible_user=ec2-user
-ansible_ssh_private_key_file=~/.ssh/xxx.pem
+ansible_ssh_private_key_file=~/.ssh/tf-handson.pem
 
 [server_secret:children]
 server
