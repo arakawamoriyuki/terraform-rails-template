@@ -1,0 +1,4 @@
+export DATABASE_HOST='database'
+export DATABASE_PORT='3306'
+export DATABASE_USERNAME='root'
+export DATABASE_PASSWORD='pass'
