@@ -1,7 +1,7 @@
 variable "vpc_id" {
-  default = "your-vpc-id"
+  default = "vpc-bcb159d8"
 }
 
 variable "app_name" {
-  default = "your-app-name"
+  default = "arakawamoriyuki-app"
 }

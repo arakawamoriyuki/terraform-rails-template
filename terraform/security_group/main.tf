@@ -1,18 +1,18 @@
 provider "aws" {
-  region  = "ap-northeast-1"
+  region  = "us-east-1"
   version = "2.12.0"
-  profile = "your-profile"
+  profile = "tf-handson"
 }
 
 terraform {
   required_version = ">= 0.12"
 
   backend "s3" {
-    bucket  = "app-name-tfstate"
-    region  = "ap-northeast-1"
-    key     = "security_group/terraform.tfstate"
+    bucket  = "tf-handson-bucket"
+    region  = "us-east-1"
+    key     = "security_group/arakawamoriyuki/terraform.tfstate"
     encrypt = true
-    profile = "your-profile"
+    profile = "tf-handson"
   }
 }
 

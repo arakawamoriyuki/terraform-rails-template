@@ -1,5 +1,5 @@
 variable "ami_id" {
-  default = "ami-0c3fd0f5d33134a76"
+  default = "ami-0b898040803850657"
 }
 
 variable "instance_count" {
@@ -8,8 +8,8 @@ variable "instance_count" {
 
 variable "subnets" {
   default = {
-    "0" = "subnet-000111222"
-    "1" = "subnet-333444555"
+    "0" = "subnet-353b0742"
+    "1" = "subnet-e14116b8"
   }
 }
 
@@ -18,9 +18,9 @@ variable "instance_type" {
 }
 
 variable "key_pair" {
-  default = "your-keypair-name"
+  default = "tf-handson"
 }
 
 variable "app_name" {
-  default = "your-app-name"
+  default = "arakawamoriyuki-app"
 }
